@@ -32,7 +32,7 @@ export default withSentryConfig(withSentryConfig(nextConfig, {
 // For all available options, see:
 // https://github.com/getsentry/sentry-webpack-plugin#options
 
-org: "js-mastery-dk",
+org: "yc-directory-pt",
 project: "javascript-nextjs",
 
 // Only print logs for uploading source maps in CI
@@ -70,8 +70,7 @@ automaticVercelMonitors: true,
 // For all available options, see:
 // https://github.com/getsentry/sentry-webpack-plugin#options
 
-org: "yc-directory-pt",
-project: "javascript-nextjs",
+
 
 // Only print logs for uploading source maps in CI
 silent: !process.env.CI,
